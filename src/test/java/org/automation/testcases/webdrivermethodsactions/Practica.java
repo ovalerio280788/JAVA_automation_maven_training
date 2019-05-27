@@ -1,4 +1,4 @@
-package org.automation.testcases.sesion1suite;
+package org.automation.testcases.webdrivermethodsactions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Session1Practica {
+public class Practica {
     private WebDriver driver;
     private String appUrl = "http://127.0.0.1:9000/admin";
 
