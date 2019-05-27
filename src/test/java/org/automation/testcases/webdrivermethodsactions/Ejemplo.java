@@ -142,20 +142,6 @@ public class Ejemplo {
         System.out.println("Método 'getAttribute()' -- 'actionsWrapper getAttribute title' = ".concat(String.valueOf(copyAncestor.getAttribute("title"))));
     }
 
-    /**
-     * Crear un test case que use todas las acciones con los elementos que vimos y que se listan comentadas dentro del
-     * test case
-     */
-    @Test
-    public void TestElementActions() {
-        //.getText()
-        //.getLocation()
-        //.isSelected()
-        //.isDisplayed()
-        //.isEnabled()
-        //.getAttribute()
-    }
-
     @AfterMethod
     public void afterMethod() {
         //quit()
