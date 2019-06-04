@@ -20,12 +20,13 @@
         <!-- WHAT TO RUN -->
         <groups>
             <run>
-                <include name="full_regression"/>
+                <include name="dp_excel"/>
             </run>
         </groups>
 
         <classes>
             <class name="org.automation.testcases.LoginSuite"></class>
+            <class name="org.automation.testcases.Session3Suite01"></class>
         </classes>
     </test>
 </suite>

@@ -32,7 +32,12 @@ public class SeleniumBase {
                 System.out.println("Browser not supported");
         }
         driver.manage().deleteAllCookies();
-        driver.manage().window().maximize();
+        try {
+            driver.manage().window().maximize();
+        }catch (Exception e){
+            System.out.print("No se pudo maximizar el browser");
+        }
+
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(url);
         return driver;
